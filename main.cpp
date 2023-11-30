@@ -28,7 +28,7 @@ int main() {
             fillIron(iron);
             displayIron(iron);
             break;
-        }
+        } 
         case 3: {
             Boiler boiler;
             fillBoiler(boiler);
