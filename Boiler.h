@@ -6,8 +6,8 @@ using namespace std;
 
 
 struct Boiler {
-    std::string brand;
-    std::string color;
+    string brand;
+    string color;
     double power;
     double volume;
     double heatingTemperature;
