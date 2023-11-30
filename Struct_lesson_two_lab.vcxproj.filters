@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{c94d1b47-2712-4b00-a511-b93de1b3b6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WashingMachine">
+      <UniqueIdentifier>{fe7e73e3-de02-4f91-a647-8bf5b01dffe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iron">
+      <UniqueIdentifier>{fa1bc79a-b549-4f69-8464-112d718e549c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boiler">
+      <UniqueIdentifier>{d4165b9c-7cbd-4657-b888-f207156393d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animal">
+      <UniqueIdentifier>{1ce6e0c6-deae-4fa8-8195-4daba5540d0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="WashingMachine.cpp">
+      <Filter>WashingMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Iron.cpp">
+      <Filter>Iron</Filter>
+    </ClCompile>
+    <ClCompile Include="Boiler.cpp">
+      <Filter>Boiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>Animal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WashingMachine.h">
+      <Filter>WashingMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Iron.h">
+      <Filter>Iron</Filter>
+    </ClInclude>
+    <ClInclude Include="Boiler.h">
+      <Filter>Boiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>Animal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
